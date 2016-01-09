@@ -1,3 +1,4 @@
+# Java compiled classes
 *.class
 
 # Mobile Tools for Java (J2ME)
@@ -10,3 +11,28 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Gedit temp files
+*~
+
+# vim swap files
+.*.swp
+
+# IntelliJ IDEA helpers
+*.iml
+*.idea
+
+# Maven build results
+target/
+
+# Misc
+*.log
+*.tar.gz
+
+# Python
+*.pyc
+*$py.class
+
+# Nose
+.noseids
+.coverage
